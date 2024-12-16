@@ -11,9 +11,7 @@
 		"build": "react-router build",
 		"preview": "vite preview",
 		"check": "biome check --write ./app",
-		"predeploy": "pnpm run build",
-		"deploy": "gh-pages -d build/client --nojekyll",
-		"typecheck": "react-router typegen && tsc",
+		"typecheck": "react-router typegen && tsc --noEmit",
 		"nuke": "pnpm dlx rimraf node_modules && pnpm i",
 		"postinstall": "lefthook install"
 	},
