@@ -15,9 +15,6 @@
 pre-commit:
   parallel: true
   commands:
-    format:
-      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
-      run: pnpm biome format --write {staged_files} && git update-index --again
-    lint:
+    check:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
       run: pnpm biome check --write {staged_files} && git update-index --again

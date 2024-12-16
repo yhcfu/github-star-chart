@@ -10,11 +10,10 @@
 		"dev": "react-router dev",
 		"build": "react-router build",
 		"preview": "vite preview",
-		"lint": "biome check --write ./app",
+		"check": "biome check --write ./app",
 		"predeploy": "pnpm run build",
 		"deploy": "gh-pages -d build/client --nojekyll",
 		"typecheck": "react-router typegen && tsc",
-		"format": "biome format --write",
 		"nuke": "pnpm dlx rimraf node_modules && pnpm i",
 		"postinstall": "lefthook install"
 	},
