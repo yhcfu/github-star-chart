@@ -10,10 +10,13 @@
 		"dev": "react-router dev",
 		"build": "react-router build",
 		"preview": "vite preview",
+		"lint": "biome check --write ./app",
 		"predeploy": "pnpm run build",
 		"deploy": "gh-pages -d build/client --nojekyll",
 		"typecheck": "react-router typegen && tsc",
-		"nuke": "pnpm dlx rimraf node_modules && pnpm i"
+		"format": "biome format --write",
+		"nuke": "pnpm dlx rimraf node_modules && pnpm i",
+		"postinstall": "lefthook install"
 	},
 	"dependencies": {
 		"@react-router/fs-routes": "^7.0.2",
@@ -31,6 +34,7 @@
 		"@types/react": "^18.3.17",
 		"@types/react-dom": "^18.3.5",
 		"gh-pages": "^6.2.0",
+		"lefthook": "^1.9.2",
 		"turbo": "^2.3.3",
 		"typescript": "^5.7.2",
 		"vite": "^5.4.11",
