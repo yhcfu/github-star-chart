@@ -7,7 +7,7 @@
 	"sideEffects": false,
 	"description": "",
 	"scripts": {
-		"dev": "dotenv -- react-router dev",
+		"dev": "react-router dev",
 		"build": "react-router build",
 		"preview": "vite preview",
 		"predeploy": "pnpm run build",
@@ -30,7 +30,6 @@
 		"@types/node": "^22.10.2",
 		"@types/react": "^18.3.17",
 		"@types/react-dom": "^18.3.5",
-		"dotenv-cli": "^7.4.4",
 		"gh-pages": "^6.2.0",
 		"turbo": "^2.3.3",
 		"typescript": "^5.7.2",
