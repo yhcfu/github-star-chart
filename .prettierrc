@@ -1,0 +1,5 @@
+{
+  "customFunctions": ["cn", "clsx", "cva", "tw", "twx"],
+  "endingPosition": "absolute-with-indent",
+  "plugins": ["prettier-plugin-packagejson", "prettier-plugin-classnames"]
+}

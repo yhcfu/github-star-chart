@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * #9B4CA6
+ * https://zippystarter.com/tools/shadcn-ui-theme-generator
+ */
+
+:root  {
+  --background: 293 0% 95%;
+  --foreground: 293 0% 10%;
+  --card: 293 0% 93%;
+  --card-foreground: 293 0% 15%;
+  --popover: 293 0% 95%;
+  --popover-foreground: 293 95% 10%;
+  --primary: 293 37.2% 47.5%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 293 10% 90%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: 255 10% 93%;
+  --muted-foreground: 293 0% 40%;
+  --accent: 255 10% 90%;
+  --accent-foreground: 293 0% 15%;
+  --destructive: 0 50% 50%;
+  --destructive-foreground: 293 0% 93%;
+  --border: 293 20% 82%;
+  --input: 293 20% 50%;
+  --ring: 293 37.2% 47.5%;
+  --radius: 0.5rem;
+}
+.dark  {
+  --background: 293 10% 10%;
+  --foreground: 293 0% 93%;
+  --card: 293 0% 10%;
+  --card-foreground: 293 0% 93%;
+  --popover: 293 10% 5%;
+  --popover-foreground: 293 0% 93%;
+  --primary: 293 37.2% 47.5%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 293 10% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 255 10% 25%;
+  --muted-foreground: 293 0% 65%;
+  --accent: 255 10% 25%;
+  --accent-foreground: 293 0% 93%;
+  --destructive: 0 50% 50%;
+  --destructive-foreground: 293 0% 93%;
+  --border: 293 20% 50%;
+  --input: 293 20% 50%;
+  --ring: 293 37.2% 47.5%;
+  --radius: 0.5rem;
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+textarea {
+  field-sizing: content;
+}
