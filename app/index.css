@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * #9B4CA6
+ * https://zippystarter.com/tools/shadcn-ui-theme-generator
+ */
+:root {
+	--background: 293 15% 95%;
+	--foreground: 293 5% 10%;
+	--card: 293 15% 90%;
+	--card-foreground: 293 5% 15%;
+	--popover: 293 15% 95%;
+	--popover-foreground: 293 95% 10%;
+	--primary: 293 37.2% 47.5%;
+	--primary-foreground: 0 0% 100%;
+	--secondary: 293 15% 70%;
+	--secondary-foreground: 0 0% 0%;
+	--muted: 255 15% 85%;
+	--muted-foreground: 293 5% 40%;
+	--accent: 255 15% 80%;
+	--accent-foreground: 293 5% 15%;
+	--destructive: 0 50% 50%;
+	--destructive-foreground: 293 5% 90%;
+	--border: 293 20% 50%;
+	--input: 293 20% 50%;
+	--ring: 293 37.2% 47.5%;
+	--radius: 0.5rem;
+}
+.dark {
+	--background: 293 15% 10%;
+	--foreground: 293 5% 90%;
+	--card: 293 15% 10%;
+	--card-foreground: 293 5% 90%;
+	--popover: 293 15% 5%;
+	--popover-foreground: 293 5% 90%;
+	--primary: 293 37.2% 47.5%;
+	--primary-foreground: 0 0% 100%;
+	--secondary: 293 15% 20%;
+	--secondary-foreground: 0 0% 100%;
+	--muted: 255 15% 25%;
+	--muted-foreground: 293 5% 60%;
+	--accent: 255 15% 25%;
+	--accent-foreground: 293 5% 90%;
+	--destructive: 0 50% 50%;
+	--destructive-foreground: 293 5% 90%;
+	--border: 293 20% 50%;
+	--input: 293 20% 50%;
+	--ring: 293 37.2% 47.5%;
+	--radius: 0.5rem;
+}
