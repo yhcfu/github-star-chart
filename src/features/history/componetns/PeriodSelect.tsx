@@ -1,4 +1,4 @@
-import type { HistoryPeriod } from '../definitions.js';
+import type { HistoryPeriod } from '../definitions';
 import {
   Select,
   SelectContent,

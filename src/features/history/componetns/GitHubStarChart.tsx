@@ -1,6 +1,6 @@
 'use client';
 
-import type { StarHistory } from '../definitions.ts';
+import type { StarHistory } from '../definitions';
 import {
   formatDateForPeriod,
   formatNumber,

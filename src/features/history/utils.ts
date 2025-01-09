@@ -1,4 +1,4 @@
-import type { HistoryPeriod, StarHistory } from './definitions.ts';
+import type { HistoryPeriod, StarHistory } from './definitions';
 import {
   eachDayOfInterval,
   format,
